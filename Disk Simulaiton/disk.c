@@ -1,5 +1,4 @@
 //Veronica Gonzalez
-//CSC 139, Disk Simulation
 
 #include <stdio.h>
 #include <stdlib.h>
