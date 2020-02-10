@@ -1,3 +1,6 @@
+//CPU SCHEDULING PROGRAM
+//A program to simulate scheduling algorithms for First Come First Serve (FCFS), Round Robin (RR),  and Shortest Remaining Time First
+
 To compile Program: 
 
            gcc -g -o proj2 cpu.c
