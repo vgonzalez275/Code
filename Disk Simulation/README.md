@@ -1,4 +1,4 @@
-#Disk Simulation
+Disk Simulation
 A program that simulates the First Come First Serve (FCFS) algorithm for scheduling the disk head on a hard disk.
 
 To run program.
