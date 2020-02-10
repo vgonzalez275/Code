@@ -1,0 +1,30 @@
+//Part A
+1. What is the CPU type and model?
+	command: cat /proc/cpuinfo
+   CPU type: GenuineIntel
+   CPU model: Intel (R) Xeon (R) CPU E5-2640 0 @2.50 Ghz
+2. What version of the Linux kernel is being used ?
+	command: cat /proc/version
+	-Linux version 2.6.32-754.9.1.el6.i686
+cd 	-gcc version 4.4.7
+3. How long has it been since the system last booted?
+	command: cat /proc/stat or iostat
+	btime 1545174702
+4. How much of the total CPU time has been spend executing in user mode? System mode? Idle?
+	command: iostat
+	user: 0.09, system: 0.12, Idle: 99.65  
+5. How much memory is configured into it? 
+	command: cat /proc/meminfo
+	MemTotal: 4019000 kB
+6. How much memory is currently available on it?
+	command: cat /proc/meminfo
+	MemFree: 119540 kB
+7. How many disks read/write requests have been made?
+	command: iostat
+	Blk_read: 60496740, Blk_wrtn: 74440888
+8. How many context switches has the kernal performed?
+	command: cat /proc/stat
+	ctxt 1005984626
+9. How many processes have been created since the sytem was booted?
+	command: cat /proc/stat
+	processes 20149922 
