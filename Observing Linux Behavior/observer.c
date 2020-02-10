@@ -1,5 +1,4 @@
-//Assignment 1: Observing Linux Behavior
-//CSC139, Section 2
+//Observing Linux Behavior
 //Veronica Gonzalez
 
 #include <stdio.h>
