@@ -1,6 +1,5 @@
 //Veronica Gonzalez
-//CSC 139, Programming Assignment #2
-//CPU scheduling simulation
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
